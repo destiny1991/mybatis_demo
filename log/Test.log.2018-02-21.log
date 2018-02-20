@@ -1,0 +1,30 @@
+2018-02-21 01:15:41.953 [main] INFO  org.venus.Main - {"id":1,"roleName":"worker","note":"heheheh"}
+2018-02-21 01:16:11.879 [main] INFO  org.venus.Main - {"id":1,"roleName":"worker","note":"heheheh"}
+2018-02-21 01:16:38.650 [main] INFO  org.venus.Main - {"id":1,"roleName":"worker","note":"heheheh"}
+2018-02-21 01:17:09.659 [main] INFO  org.venus.Main - {"id":1,"roleName":"worker","note":"heheheh"}
+2018-02-21 01:18:11.080 [main] ERROR org.venus.Main - 
+### Error building SqlSession.
+### The error may exist in classpath:sqlmap/RoleMapper.xml
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource classpath:sqlmap/RoleMapper.xml
+2018-02-21 01:18:23.767 [main] ERROR org.venus.Main - 
+### Error building SqlSession.
+### The error may exist in classpath*:sqlmap/RoleMapper.xml
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource classpath*:sqlmap/RoleMapper.xml
+2018-02-21 01:18:37.159 [main] ERROR org.venus.Main - 
+### Error building SqlSession.
+### The error may exist in /sqlmap/RoleMapper.xml
+### Cause: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.io.IOException: Could not find resource /sqlmap/RoleMapper.xml
+2018-02-21 01:18:47.699 [main] INFO  org.venus.Main - {"id":1,"roleName":"worker","note":"heheheh"}
+2018-02-21 01:43:00.837 [main] INFO  org.venus.Main - Role[id=1,roleName=worker,note=heheheh]
+2018-02-21 01:45:05.327 [main] INFO  org.venus.Main - Role[id=1,roleName=worker,note=heheheh]
+2018-02-21 01:55:29.129 [main] ERROR org.venus.Main - 
+### Error querying database.  Cause: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+### The error may exist in sqlmap/RoleMapper.xml
+### The error may involve org.venus.mapper.RoleMapper.getRole
+### The error occurred while executing a query
+### Cause: java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: YES)
+2018-02-21 01:55:55.261 [main] INFO  org.venus.Main - Role[id=1,roleName=worker,note=heheheh]
+2018-02-21 01:56:42.150 [main] INFO  org.venus.Main - Role[id=1,roleName=worker,note=heheheh]
+2018-02-21 01:57:27.248 [main] INFO  org.venus.Main - Role[id=1,roleName=worker,note=heheheh]
+2018-02-21 01:59:23.154 [main] INFO  org.venus.Main - Role[id=1,roleName=worker,note=heheheh]
+2018-02-21 01:59:29.116 [main] INFO  org.venus.Main - Role[id=1,roleName=worker,note=heheheh]
