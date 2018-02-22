@@ -6,12 +6,6 @@
 
     <properties resource="jdbc.properties" />
 
-    <!--
-    <settings>
-        <setting name="" value=""/>
-    </settings>
-    -->
-
     <typeAliases>
         <package name="org.venus.po" />
     </typeAliases>
@@ -30,8 +24,8 @@
         </environment>
     </environments>
 
+    <!-- 用包名引入映射器 -->
     <mappers>
-        <mapper resource="sqlmap/RoleMapper.xml" />
+        <package name="org.venus.mapper" />
     </mappers>
-
 </configuration>
