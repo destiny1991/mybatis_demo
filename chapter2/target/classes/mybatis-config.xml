@@ -7,7 +7,7 @@
     <properties resource="jdbc.properties" />
 
     <typeAliases>
-        <package name="org.venus.po" />
+        <package name="org.venus.com.venus.po" />
     </typeAliases>
     
     <environments default="development">
@@ -24,7 +24,6 @@
         </environment>
     </environments>
 
-    <!-- 用包名引入映射器 -->
     <mappers>
         <mapper resource="sqlmap/RoleMapper.xml" />
     </mappers>
